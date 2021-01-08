@@ -8,6 +8,7 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String index() {
+        System.out.println("test create a pull request");
         return "Hello World";
     }
 
